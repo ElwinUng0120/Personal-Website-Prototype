@@ -1,0 +1,11 @@
+body, html, .view{
+    height:100%;
+}
+
+.view{
+    background-image: url("../img/background.png");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
