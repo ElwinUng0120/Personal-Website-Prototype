@@ -2,10 +2,31 @@ body, html, .view{
     height:100%;
 }
 
+.navbar-brand{
+    padding: 0.5%;
+    background-color:grey;
+}
+
 .view{
     background-image: url("../img/background.png");
     height: 100%; 
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-size: cover;
+}
+
+.hr-light{
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+footer{
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 1%;
+    padding-top: 1%;
+    border-top: solid lightgrey;
+    border-width: 5px;
+    background-color: grey;
+    text-align: center;
 }
