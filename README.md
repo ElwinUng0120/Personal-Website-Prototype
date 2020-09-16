@@ -4,9 +4,10 @@ This prototype contains the following html and css:
 - portfolio.html: Project page for showcasing past projects with a thumbnail from those projects
 - contact.html: Contact page contains ways to contact me or leave a message through the form provided
 - style.css: CSS for styling all of the about html pages
-Every html contains a **Bootstrap Navbar** and a customizable **footer**, which is used as a Copyright banner.<br>
+Every html contains a **Bootstrap Navbar** and a customizable **footer**, which is used as a Copyright banner at the moment.<br>
 
 This prototype made use of **HTML 5**, **CSS** and **Bootstrap**.<br>
+Semantic tags are also used for easier reading.<br>
 This prototype is currently hosted on Github Pages: https://elwinung0120.github.io/Personal-Website-Prototype/
 
 ## Notes
