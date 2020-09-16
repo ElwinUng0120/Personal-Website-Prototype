@@ -4,29 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
+    <!-- jQuery.js, Bootstrap.js and Bootstrap.css to make collapsed menu work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Original css file for styling -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Branding -->
         <span class="navbar-brand mb-0 h1">
             <h2>Elwin Ung</h2>
         </span>
+        <!-- Collapsable menu when window reduced to a certain width -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- Links in Navbar -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
+            <!-- Individual link in navbar as an unordered list -->
+            <ul class="navbar-nav ml-auto"> <!-- ml-auto: To make all links stick to right side-->
                 <li class="nav-item">
                     <a class="nav-link" href="index.html">
                         <h4>Home</h4>
                     </a>
                 </li>
-                <li class="nav-item active">
-                    <a class="nav-link disabled" href="portfolio.html">
+                <li class="nav-item active"> <!-- active: To make this link light up as user is on this page-->
+                    <a class="nav-link disabled" href="portfolio.html"> <!-- disabled: To make this link un-clickable -->
                         <h4>Portfolio</h4><span class="sr-only">(current)</span>
                     </a>
                 </li>
@@ -38,13 +45,46 @@
             </ul>
         </div>
     </nav>
+
+    <br class="BR">
+
+    <!-- Content -->
     <div class="view">
         <div class="container">
-            
+            <!-- Jumbotron -->
+            <div class="jumbotron">
+                <h1 class="display-5">Portfolio</h1>
+                <hr class="my-4" style="border-top: 2px solid">
+                <!-- Projects for portfolio -->
+                <div class="row" id="rowPort"> <!-- justify-content-around: For placing 2 pics per column centered at the middle of the window -->
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img src="http://placehold.it/350x350" alt="Place Holder" />
+                        <br><br>
+                        <img src="http://placehold.it/350x350" alt="Place Holder" />
+                        <br><br>
+                        <img src="http://placehold.it/350x350" alt="Place Holder" />
+                        <br><br>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <img src="http://placehold.it/350x350" alt="Place Holder" />
+                        <br><br>
+                        <img src="http://placehold.it/350x350" alt="Place Holder" />
+                        <br><br>
+                        <img src="http://placehold.it/350x350" alt="Place Holder" />
+                        <br><br>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-    <footer>
-        © CopyRight
+
+    <br>
+    
+
+    <!-- Copyright footer-->
+    <footer style="height: 3%">
+        <!-- align-middle: Bootstrap class for aligning text in the middle of space -->
+        <span class="align-middle">Copyright © 2020 Elwin Ung. All Rights Reserved.</span>
     </footer>
 </body>
 </html>
