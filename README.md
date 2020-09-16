@@ -9,6 +9,9 @@ Every html contains a **Bootstrap Navbar** and a customizable **footer**, which 
 This prototype made use of **HTML 5**, **CSS** and **Bootstrap**.<br>
 This prototype is currently hosted on Github Pages: https://elwinung0120.github.io/Personal-Website-Prototype/
 
+## Notes
+Images below have different scaling in an attempt to showcase the whole page.
+
 # index.html
 - Made with **Jumbotron** and **Grid system** within Jumbotron
 <img src="./img/readme/index.jpg" alt="index.html showcase" style="margin-left: auto; margin-right: auto" />
@@ -24,4 +27,4 @@ This prototype is currently hosted on Github Pages: https://elwinung0120.github.
 
 # style.css
 - Contains general styling for all 3 html pages
-- Contains **Media Queries** to make all 3 html pages rearrange its components to match the different window sizes 
+- Contains **Media Queries** to make all 3 html pages rearrange its components to match the different window sizes
