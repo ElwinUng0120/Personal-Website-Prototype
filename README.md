@@ -4,7 +4,7 @@ This prototype contains the following html and css:
 - portfolio.html: Project page for showcasing past projects with a thumbnail from those projects
 - contact.html: Contact page contains ways to contact me or leave a message through the form provided
 
-This prototype is made use of **HTML 5**, **CSS** and **Bootstrap**.
+This prototype is made use of **HTML 5**, **CSS** and **Bootstrap**.<br>
 This prototype is currently hosted on Github Pages: https://elwinung0120.github.io/Personal-Website-Prototype/
 
 # index.html
