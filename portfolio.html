@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Porfolio</title>
-    <!-- jQuery.js, Bootstrap.js and Bootstrap.css to make collapsed menu work -->
+    <!-- jQuery.js and Bootstrap.js to make collapsed menu work -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Bootstrap.css for quicker styling -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- Original css file for styling -->
     <link rel="stylesheet" href="./css/style.css">
@@ -56,8 +57,8 @@
                 <h1 class="display-5">Portfolio</h1>
                 <hr class="my-4" style="border-top: 2px solid">
                 <!-- Projects for portfolio -->
-                <div class="row" id="rowPort"> <!-- justify-content-around: For placing 2 pics per column centered at the middle of the window -->
-                    <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="row" id="rowPort"> 
+                    <div class="col-lg-6 col-md-12 col-sm-12"> <!-- 2 columns when max-width > 992px, 1 column when max-width = 768px/400px -->
                         <img src="http://placehold.it/350x350" alt="Place Holder" />
                         <br><br>
                         <img src="http://placehold.it/350x350" alt="Place Holder" />
@@ -65,7 +66,7 @@
                         <img src="http://placehold.it/350x350" alt="Place Holder" />
                         <br><br>
                     </div>
-                    <div class="col-lg-6 col-md-12 col-sm-12">
+                    <div class="col-lg-6 col-md-12 col-sm-12"> <!-- 2 columns when max-width > 992px, 1 column when max-width = 768px/400px -->
                         <img src="http://placehold.it/350x350" alt="Place Holder" />
                         <br><br>
                         <img src="http://placehold.it/350x350" alt="Place Holder" />
