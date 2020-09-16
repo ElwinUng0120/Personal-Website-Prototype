@@ -5,6 +5,7 @@ This prototype contains the following html and css:
 - contact.html: Contact page contains ways to contact me or leave a message through the form provided
 
 This prototype is made use of **HTML 5**, **CSS** and **Bootstrap**.
+This prototype is currently hosted on Github Pages: https://elwinung0120.github.io/Personal-Website-Prototype/
 
 # index.html
 - Made with Jumbotron and Grid system within Jumbotron
