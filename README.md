@@ -6,7 +6,7 @@ This prototype contains the following html and css:
 - style.css: CSS for styling all of the about html pages
 Every html contains a **Bootstrap Navbar** and a customizable **footer**, which is used as a Copyright banner.<br>
 
-This prototype is made use of **HTML 5**, **CSS** and **Bootstrap**.<br>
+This prototype made use of **HTML 5**, **CSS** and **Bootstrap**.<br>
 This prototype is currently hosted on Github Pages: https://elwinung0120.github.io/Personal-Website-Prototype/
 
 # index.html
